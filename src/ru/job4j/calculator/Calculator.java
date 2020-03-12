@@ -14,5 +14,12 @@ public class Calculator {public static void main(String[] args) {
     System.out.println(sixDivTwo);
     System.out.println(fiveMinusTwo);
     System.out.println(fourTimeTwo);
+
+    int size  = 10; //
+    System.out.println(size);
+    size = 100; // присваиваем новое значение.
+    System.out.println(size);
+    size = size - 5;
+    System.out.println(size);
 }
 }
