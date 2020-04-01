@@ -13,4 +13,12 @@ public class DummyBot {
         }
         return rsl;
     }
+    public static void main(String[] args) {
+        String result1 = DummyBot.answer("Привет, Бот.");
+        System.out.println(result1);
+        String result2 = DummyBot.answer("Ну, и?");
+        System.out.println(result2);
+        String result3 = DummyBot.answer("Пока");
+        System.out.println(result3);
+    }
 }
