@@ -13,7 +13,7 @@ public class Otladka {
     }
 
     public static void main(String[] args) {
-        boolean yes = Otladka.exist(8.0, 2.0, 2.0);
+        boolean yes = Otladka.exist(2.0, 2.0, 2.0);
         String vyvod = yes? "треугольник с заданным сторонами существует" : "треугольник с заданным сторонами не существует";
         System.out.println(vyvod);
     }
