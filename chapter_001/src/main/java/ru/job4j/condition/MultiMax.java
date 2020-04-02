@@ -7,6 +7,6 @@ public class MultiMax {
 
     }
     public static void main(String[] args) {
-        System.out.println(max(1, 7, 5));
+        System.out.println(max(1, 4, 2));
     }
 }
