@@ -11,9 +11,8 @@ public class FindLoop { public int indexOf(int[] data, int el) {
     return rst;
 }
 public static void main(String[] args){
-    /**int res = FindLoop((1, 2, 3, 4, 5, 6, 7), 5);
-    System.out.println(res);
-     **/
+    int[] mymassive = new int[]{1, 2, 3, 4, 5, 6, 7, 8, 9};
 
+    System.out.println(FindLoop(mymassive, 5));
 }
 }
